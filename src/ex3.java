@@ -11,7 +11,11 @@ public class ex3 {
             if(num>3 && num%2 != 0)
                  break;
         } while (check=true);
+        int space=num-1;
         for (int i=1;i<=num;i++){
+            for (int k=1;k<=space;k++)
+                System.out.print(" ");
+            space --;
 
             for (int j=1;j<=i;j++){
                 System.out.print("*");
@@ -20,7 +24,14 @@ public class ex3 {
             i++;
             System.out.println(" ");
         }
-        for (int i=num*2;i>num;i--){
+        space = 1;
+        for (int i=num*
+                2;i>num;i--){
+            for (int k = 1; k <= space; k++)
+            {
+                System.out.print(" ");
+            }
+            space++;
             for (int j=num;j<i;j++){
                 System.out.print("*");
 
