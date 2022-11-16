@@ -25,8 +25,7 @@ public class ex3 {
             System.out.println(" ");
         }
         space = 1;
-        for (int i=num*
-                2;i>num;i--){
+        for (int i=num*2;i>num;i--){
             for (int k = 1; k <= space; k++)
             {
                 System.out.print(" ");

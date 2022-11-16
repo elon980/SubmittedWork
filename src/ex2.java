@@ -11,11 +11,11 @@ public class ex2 {
         int amount = scanner.nextInt();
         if (amount > 0) {
             System.out.println(FirstNum);
-            int raw=FirstNum;
+            int row=FirstNum;
 
             for(int i=0;i<=amount;i++){
-                raw=difference+raw;
-                System.out.println(raw);
+                row=difference+row;
+                System.out.println(row);
             }
 
         }
