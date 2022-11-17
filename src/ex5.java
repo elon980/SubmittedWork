@@ -5,18 +5,18 @@ public class ex5 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number to check");
         int num= scanner.nextInt();
-        int start = 0;
-        int start1 = 1 ;
-        boolean check = true;
-        while(check){
-
-            start=start+start1;
-            start1= start+start1;
-            if(num == start || num==start1) {
-                System.out.println("the number is from Fibonacci row");
-                check=false;
-            }
+        int firstTerm = 0;
+        int secondTerm = 1 ;
+        int thrirdTerm= 0;
+        while(thrirdTerm<num){
+            thrirdTerm=firstTerm+secondTerm;
+            firstTerm= secondTerm;
+            secondTerm=thrirdTerm;
         }
-
+            if(num == thrirdTerm) {
+                System.out.println("the number is from Fibonacci series");
+        }
+            else
+                System.out.println("the num is not from fibonaci series");
     }
 }
