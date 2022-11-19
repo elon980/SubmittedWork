@@ -10,10 +10,10 @@ public class ex2 {
         System.out.println("Enter amount of numbers ");
         int amount = scanner.nextInt();
         if (amount > 0) {
-            System.out.println(FirstNum);
+            System.out.print(FirstNum+",");
             int row=FirstNum;
 
-            for(int i=0;i<=amount;i++){
+            for(int i=0;i<amount-1;i++){
                 row=difference+row;
                 System.out.print(row+",");
             }
