@@ -15,7 +15,7 @@ public class ex2 {
 
             for(int i=0;i<=amount;i++){
                 row=difference+row;
-                System.out.println(row);
+                System.out.print(row+",");
             }
 
         }
